@@ -11,7 +11,7 @@ body{
     position: relative;
     width: 100%;
     height: 100vh;
-    background: blueviolet;
+    background: darkslategrey;
     position: relative;
 }
 
@@ -47,17 +47,17 @@ nav ul li a:hover{
 
 .detel{
     margin-left: 8%;
-    margin-top: 10%;
+    margin-top: 25%;
 }
 
 .detel h1{
     font-size: 50px;
-    color: #212121;
+    color: #9c9595;
     margin-bottom: 20px;
 }
 
 span{
-    color: orange;
+    color: navy;
     
 }
 
@@ -79,7 +79,7 @@ span{
 
 .images{
     width: 45%;
-    height: 80%;
+    height: 50%;
     position: absolute;
     bottom: 0;
     right: 100px;
@@ -88,19 +88,19 @@ span{
 .images img{
     height: 100%;
     position: absolute;
-    left: 50%;
-    bottom: 0;
+    right: 116%;
+    bottom: 75%;
     transform: translateX(-50%);
     transition: bottom 1s, left 1s;
 }
 
-.images:hover .shape{
+/* .images:hover .shape{
     bottom: 40px;
 }
 
 .images:hover .girl{
     left: 45%;
-}
+} */
 
 .social{
     margin-left: 8%;
